@@ -1,6 +1,6 @@
 from keras.applications import MobileNet
 
-img_rows, img_cols = 224, 224 
+ img_rows, img_cols = 224, 224 
 
 MobileNet = MobileNet(weights = 'imagenet', 
                  include_top = False, 
